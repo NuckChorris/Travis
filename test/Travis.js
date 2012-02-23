@@ -1,15 +1,15 @@
 var should = require('should');
 var path = require('path');
 
-describe('Directory Scanner', function () {
-	describe('#DirScanner()', function () {
+describe('Travis', function () {
+	describe('#Travis()', function () {
 		// Load in all required files
-		var DirScanner = require('../DirScanner.js');
+		var Travis = require('../lib/travis.js');
 
 		// Simple tester woo!
 		var test = function (dir, tree) {
 			return function (done) {
-				var scanner = new DirScanner(dir);
+				var scanner = new Travis(dir);
 				var testTree = {};
 				testTree[path.normalize(dir)] = [];
 				scanner.on('directory', function (dir, name) {

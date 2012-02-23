@@ -1,0 +1,24 @@
+{
+  "author": "Peter Lejeck <plejeck@artuous.com>",
+  "name": "Travis",
+  "description": "Recursively traverses a directory, exposing the structure through events.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nuckchorris/travis.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": "0.4.x||0.6.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "should": "~0.5.1",
+    "mocha": "~0.12.1"
+  },
+  "optionalDependencies": {},
+  "homepage": "https://github.com/nuckchorris/travis/"
+}
